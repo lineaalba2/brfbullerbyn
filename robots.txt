@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brfbullerbyn.vercel.app/sitemap.xml
