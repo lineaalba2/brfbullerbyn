@@ -2,6 +2,8 @@
 
 Lägg PDF-filer (årsredovisningar, stadgar, protokoll, m.m.) i den här mappen och registrera dem i `../data/documents.json` så dyker de upp på webbplatsen.
 
+**Viktigt:** sajten visar bara dokument som faktiskt finns i den här mappen *och* är listade i `documents.json`. Lägger du till en post i JSON utan att ladda upp filen får besökarna 404 vid klick — registrera därför aldrig ett dokument förrän PDF:en är uppladdad.
+
 ## Att lägga upp ett nytt dokument
 
 1. **Namnge filen** — använd små bokstäver, bindestreck istället för mellanslag, och årtal sist. Exempel:
