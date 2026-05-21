@@ -97,7 +97,7 @@ async function renderNews(limit) {
   const container = document.querySelector('[data-news]');
   if (!container) return;
   try {
-    const res = await fetch('/data/news.json', { cache: 'no-cache' });
+    const res = await fetch('data/news.json', { cache: 'no-cache' });
     const items = await res.json();
     items.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
     const list = typeof limit === 'number' ? items.slice(0, limit) : items;
@@ -123,7 +123,7 @@ async function renderDocuments() {
   if (!containers.length) return;
   let items;
   try {
-    const res = await fetch('/data/documents.json', { cache: 'no-cache' });
+    const res = await fetch('data/documents.json', { cache: 'no-cache' });
     items = await res.json();
   } catch (err) {
     containers.forEach((c) => { c.innerHTML = '<li class="muted">Kunde inte ladda dokumenten.</li>'; });
@@ -154,7 +154,7 @@ async function renderBoard() {
   const container = document.querySelector('[data-board]');
   if (!container) return;
   try {
-    const res = await fetch('/data/board.json', { cache: 'no-cache' });
+    const res = await fetch('data/board.json', { cache: 'no-cache' });
     const data = await res.json();
     const members = data.members || [];
     container.innerHTML = members.map((m) => `
@@ -176,8 +176,8 @@ async function renderBoard() {
 
 document.addEventListener('DOMContentLoaded', async () => {
   await Promise.all([
-    injectPartial('[data-include="header"]', '/partials/header.html'),
-    injectPartial('[data-include="footer"]', '/partials/footer.html'),
+    injectPartial('[data-include="header"]', 'partials/header.html'),
+    injectPartial('[data-include="footer"]', 'partials/footer.html'),
   ]);
   highlightActiveNav();
   setupNavToggle();
