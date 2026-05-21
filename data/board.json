@@ -1,0 +1,45 @@
+{
+  "updated": "2026-05-21",
+  "members": [
+    {
+      "role": "Ordförande",
+      "name": "Filippa Jakobsson",
+      "email": ""
+    },
+    {
+      "role": "Ledamot",
+      "name": "Gustav Walldén",
+      "email": ""
+    },
+    {
+      "role": "Ledamot",
+      "name": "Oliver Linde",
+      "email": ""
+    },
+    {
+      "role": "Suppleant",
+      "name": "Carlos Vega",
+      "email": ""
+    },
+    {
+      "role": "Suppleant",
+      "name": "Mikaela Lövberg",
+      "email": ""
+    },
+    {
+      "role": "Suppleant",
+      "name": "Elsa Widenstam",
+      "email": ""
+    },
+    {
+      "role": "Valberedning",
+      "name": "Anette Ekholm",
+      "email": ""
+    },
+    {
+      "role": "Valberedning",
+      "name": "Angélica Persson",
+      "email": ""
+    }
+  ]
+}

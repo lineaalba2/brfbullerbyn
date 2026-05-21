@@ -1,0 +1,32 @@
+[
+  {
+    "category": "arsredovisning",
+    "title": "Årsredovisning 2024",
+    "file": "/documents/arsredovisning-2024.pdf",
+    "date": "2025-04-15"
+  },
+  {
+    "category": "arsredovisning",
+    "title": "Årsredovisning 2023",
+    "file": "/documents/arsredovisning-2023.pdf",
+    "date": "2024-04-12"
+  },
+  {
+    "category": "stadgar",
+    "title": "Föreningens stadgar",
+    "file": "/documents/stadgar.pdf",
+    "date": "2023-05-20"
+  },
+  {
+    "category": "ordningsregler",
+    "title": "Ordnings- och trivselregler",
+    "file": "/documents/ordningsregler.pdf",
+    "date": "2024-01-10"
+  },
+  {
+    "category": "stamma",
+    "title": "Protokoll årsstämma 2024",
+    "file": "/documents/stamma-protokoll-2024.pdf",
+    "date": "2024-05-02"
+  }
+]

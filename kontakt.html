@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt — Brf Bullerbyn</title>
+  <meta name="description" content="Kontakta styrelsen för Brf Bullerbyn.">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script defer src="/assets/main.js"></script>
+</head>
+<body>
+  <div data-include="header"></div>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Kontakt</h1>
+        <p class="lead">Skicka ett meddelande till styrelsen — vi återkommer så snart vi kan.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-col">
+        <div class="content">
+          <h2>Skicka meddelande</h2>
+          <form
+            class="kontakt-form"
+            action="https://formsubmit.co/brfbullerbyn@gmail.com"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="Meddelande från webbplatsen">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none">
+
+            <div class="form-group">
+              <label for="namn">Namn</label>
+              <input type="text" id="namn" name="namn" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-post</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="amne">Ämne</label>
+              <input type="text" id="amne" name="amne" required>
+            </div>
+            <div class="form-group">
+              <label for="meddelande">Meddelande</label>
+              <textarea id="meddelande" name="meddelande" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Skicka</button>
+          </form>
+          <p class="form-note" style="margin-top:16px">Vi behandlar dina personuppgifter enligt GDPR — endast i syfte att besvara ditt meddelande.</p>
+        </div>
+
+        <aside>
+          <h3>Brf Bullerbyn i Bara</h3>
+          <p>Org.nr 769636-3394</p>
+          <h3>Mer information</h3>
+          <p>
+            <a href="/styrelsen.html">Styrelsens sammansättning</a><br>
+            <a href="/felanmalan.html">Felanmälan</a><br>
+            <a href="/om-foreningen.html">Om föreningen</a>
+          </p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="footer"></div>
+</body>
+</html>
