@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <title>Felanmälan — Brf Bullerbyn</title>
   <meta name="description" content="Rapportera fel i lägenhet eller gemensamma utrymmen i Brf Bullerbyn.">
   <link rel="stylesheet" href="assets/style.css">
@@ -22,9 +23,17 @@
     <section class="section">
       <div class="container two-col">
         <div class="content">
-          <h2>Vad ska du anmäla?</h2>
-          <p>Felanmälan görs för problem i föreningens gemensamma utrymmen eller med byggnaden i övrigt — exempelvis trasiga lampor i trapphus, läckage i tvättstuga eller fel på ytterdörrar.</p>
-          <p>Fel inne i din lägenhet (t.ex. trasig diskmaskin, droppande blandare) ansvarar du själv för enligt stadgarna.</p>
+          <h2>Hur du anmäler</h2>
+          <p>Skicka alla felanmälningar till styrelsen via <a href="mailto:brfbullerbyn@gmail.com">brfbullerbyn@gmail.com</a> eller via formuläret längre ner.</p>
+          <p>Fel som omfattas av <strong>förlängd garanti</strong> från Nibe, Bosch eller Elitfönster ska anmälas direkt till respektive företag. Garantiunderlag finns under <a href="#garantier">Garantidokument</a> nedan.</p>
+
+          <h2>Femårsbesiktning 2025</h2>
+          <p>Föreningen genomförde under 2025 en femårsbesiktning för att identifiera konstruktions- och materialfel. Föreningen ansvarar för det yttre underhållet — tak, fasader, fönster, dörrar, gemensamma rör och grunden.</p>
+
+          <h2 id="garantier">Garantidokument</h2>
+          <ul class="doc-list" data-documents="garanti">
+            <li class="muted">Laddar dokument…</li>
+          </ul>
 
           <h2>Akut fel</h2>
           <div class="callout">
@@ -32,7 +41,7 @@
             <p><strong>Ring 112</strong> vid brand, gasläcka eller annan akut fara. Vid akut vattenläcka, kontakta även styrelsen omedelbart enligt anslag i porten.</p>
           </div>
 
-          <h2>Anmäl fel</h2>
+          <h2 id="anmal">Anmäl fel via formulär</h2>
           <form
             class="felanmalan-form"
             action="https://formsubmit.co/brfbullerbyn@gmail.com"
@@ -47,8 +56,8 @@
               <input type="text" id="namn" name="namn" required>
             </div>
             <div class="form-group">
-              <label for="lagenhet">Lägenhet / adress</label>
-              <input type="text" id="lagenhet" name="lagenhet" placeholder="t.ex. Bullerbyvägen 12, lgh 1101" required>
+              <label for="adress">Adress</label>
+              <input type="text" id="adress" name="adress" placeholder="t.ex. Näckrosgatan 25" required>
             </div>
             <div class="form-group">
               <label for="email">E-post</label>
@@ -62,19 +71,20 @@
               <label for="kategori">Vad gäller felet?</label>
               <select id="kategori" name="kategori" required>
                 <option value="">Välj kategori…</option>
-                <option>Trapphus / entré</option>
-                <option>Tvättstuga</option>
-                <option>Soprum / återvinning</option>
-                <option>Yttertak / fasad</option>
-                <option>Innergård / grönytor</option>
-                <option>Parkering</option>
+                <option>Tak / fasad / fönster / dörrar</option>
+                <option>Värmepump (NIBE)</option>
+                <option>Vitvaror (Bosch)</option>
+                <option>Soprum / sopsortering</option>
+                <option>Gemensam grönyta</option>
+                <option>Lekplats / utemiljö</option>
+                <option>Parkering / uppfart</option>
                 <option>Annat</option>
               </select>
             </div>
             <div class="form-group">
               <label for="beskrivning">Beskriv felet</label>
               <textarea id="beskrivning" name="beskrivning" required></textarea>
-              <p class="form-note">Var så detaljerad som möjligt — gärna med plats, tidpunkt och eventuella foton (skickas separat till styrelsen).</p>
+              <p class="form-note">Var så detaljerad som möjligt — gärna med plats, tidpunkt och eventuella foton (skickas separat till brfbullerbyn@gmail.com).</p>
             </div>
             <button class="btn btn-primary" type="submit">Skicka felanmälan</button>
           </form>
@@ -84,8 +94,10 @@
         <aside>
           <h3>Akut?</h3>
           <p>Vid akut fara — ring <strong>112</strong>.<br>Vid akut vattenläcka, kontakta styrelsen direkt enligt anslag i porten.</p>
-          <h3>Ditt eget ansvar</h3>
-          <p>Fel inne i lägenheten ansvarar du själv för. Vid tveksamhet, hör av dig till styrelsen.</p>
+          <h3>Garantianmälan</h3>
+          <p>Värmepump → <strong>Nibe</strong><br>Vitvaror → <strong>Bosch</strong><br>Fönster → <strong>Elitfönster</strong></p>
+          <h3>Övrigt</h3>
+          <p>Fel inne i lägenheten ansvarar du själv för enligt stadgarna.</p>
         </aside>
       </div>
     </section>

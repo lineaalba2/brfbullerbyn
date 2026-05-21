@@ -1,32 +1,35 @@
 [
-  {
-    "category": "arsredovisning",
-    "title": "Årsredovisning 2024",
-    "file": "documents/arsredovisning-2024.pdf",
-    "date": "2025-04-15"
-  },
-  {
-    "category": "arsredovisning",
-    "title": "Årsredovisning 2023",
-    "file": "documents/arsredovisning-2023.pdf",
-    "date": "2024-04-12"
-  },
-  {
-    "category": "stadgar",
-    "title": "Föreningens stadgar",
-    "file": "documents/stadgar.pdf",
-    "date": "2023-05-20"
-  },
-  {
-    "category": "ordningsregler",
-    "title": "Ordnings- och trivselregler",
-    "file": "documents/ordningsregler.pdf",
-    "date": "2024-01-10"
-  },
-  {
-    "category": "stamma",
-    "title": "Protokoll årsstämma 2024",
-    "file": "documents/stamma-protokoll-2024.pdf",
-    "date": "2024-05-02"
-  }
+  {"category": "arsredovisning", "title": "Årsredovisning 2025", "file": "documents/arsredovisning-2025.pdf", "date": "2026-04-15"},
+  {"category": "arsredovisning", "title": "Årsredovisning 2024", "file": "documents/arsredovisning-2024.pdf", "date": "2025-04-15"},
+  {"category": "arsredovisning", "title": "Årsredovisning 2023", "file": "documents/arsredovisning-2023.pdf", "date": "2024-04-15"},
+  {"category": "arsredovisning", "title": "Årsredovisning 2022", "file": "documents/arsredovisning-2022.pdf", "date": "2023-04-15"},
+  {"category": "arsredovisning", "title": "Årsredovisning 2021", "file": "documents/arsredovisning-2021.pdf", "date": "2022-04-15"},
+  {"category": "arsredovisning", "title": "Årsredovisning 2020", "file": "documents/arsredovisning-2020.pdf", "date": "2021-04-15"},
+
+  {"category": "stadgar", "title": "Föreningens stadgar (2018-05-24)", "file": "documents/stadgar-2018-05-24.pdf", "date": "2018-05-24"},
+
+  {"category": "energideklaration", "title": "Energideklaration Liljegatan 40-42-44 (2021)", "file": "documents/energideklaration-liljegatan-40-42-44-2021.pdf", "date": "2021-01-01"},
+  {"category": "energideklaration", "title": "Energideklaration Liljegatan 46-48 (2021)", "file": "documents/energideklaration-liljegatan-46-48-2021.pdf", "date": "2021-01-01"},
+  {"category": "energideklaration", "title": "Energideklaration Liljegatan 50-52 (2021)", "file": "documents/energideklaration-liljegatan-50-52-2021.pdf", "date": "2021-01-01"},
+  {"category": "energideklaration", "title": "Energideklaration Näckrosgatan 25-27-29 (2021)", "file": "documents/energideklaration-nackrosgatan-25-27-29-2021.pdf", "date": "2021-01-01"},
+  {"category": "energideklaration", "title": "Energideklaration Näckrosgatan 31-33 (2021)", "file": "documents/energideklaration-nackrosgatan-31-33-2021.pdf", "date": "2021-01-01"},
+  {"category": "energideklaration", "title": "Energideklaration Näckrosgatan 35-37 (2021)", "file": "documents/energideklaration-nackrosgatan-35-37-2021.pdf", "date": "2021-01-01"},
+  {"category": "energideklaration", "title": "Energideklaration Näckrosgatan 39-41-43 (2021)", "file": "documents/energideklaration-nackrosgatan-39-41-43-2021.pdf", "date": "2021-01-01"},
+
+  {"category": "garanti", "title": "Garanti Nibe (värmepump)", "file": "documents/garanti-nibe.pdf"},
+  {"category": "garanti", "title": "Garanti Bosch (vitvaror)", "file": "documents/garanti-bosch.pdf"},
+  {"category": "garanti", "title": "Garanti Elitfönster", "file": "documents/garanti-elitfonster.pdf"},
+
+  {"category": "ovrigt", "title": "Ansökan om om- och tillbyggnad", "file": "documents/ansokan-om-och-tillbyggnad.pdf"},
+  {"category": "ovrigt", "title": "Ansökan om andrahandsuthyrning", "file": "documents/andrahandsansokan.pdf"},
+  {"category": "ovrigt", "title": "Integritetspolicy", "file": "documents/integritetspolicy.pdf"},
+
+  {"category": "ovrigt", "title": "Öppen fiber — broschyr", "file": "documents/2.4-oppenfiber-broschyr.pdf"},
+  {"category": "ovrigt", "title": "Elektriska installationer", "file": "documents/2.2-elektriska-installationer.pdf"},
+  {"category": "ovrigt", "title": "Energispartips", "file": "documents/3.0-energispartips.pdf"},
+  {"category": "ovrigt", "title": "Skötsel och underhåll av byggnad — invändiga ytor", "file": "documents/4.0-skotsel-och-underhall-av-byggnad-invandiga-ytor.pdf"},
+  {"category": "ovrigt", "title": "Utemiljö", "file": "documents/4.2-utemiljo.pdf"},
+  {"category": "ovrigt", "title": "Åtgärder vid brand, vattenskada och elavbrott", "file": "documents/5.0-atgarder-vid-brand-vattenskada-och-elavbrott.pdf"},
+  {"category": "ovrigt", "title": "Ansvar för underhåll i bostadsrättsförening", "file": "documents/6.0-ansvar-for-underhall.pdf"},
+  {"category": "ovrigt", "title": "SBC ekonomisk förvaltare", "file": "documents/9.0-sbc-ekonomisk-forvaltare.pdf"}
 ]

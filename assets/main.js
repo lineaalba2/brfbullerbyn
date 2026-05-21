@@ -16,11 +16,15 @@ async function injectPartial(selector, url) {
 }
 
 function highlightActiveNav() {
-  const path = window.location.pathname.replace(/index\.html$/, '') || '/';
+  const stripPath = (p) => {
+    let s = p.replace(/^\.\//, '').replace(/\.html$/, '').replace(/\/$/, '');
+    s = s.split('/').pop();
+    return s === '' || s === 'index' ? 'home' : s;
+  };
+  const here = stripPath(window.location.pathname);
   document.querySelectorAll('.primary-nav a').forEach((a) => {
-    const href = a.getAttribute('href');
-    const normalized = href.replace(/index\.html$/, '') || '/';
-    if (normalized === path) a.setAttribute('aria-current', 'page');
+    const there = stripPath(a.getAttribute('href') || '');
+    if (there === here) a.setAttribute('aria-current', 'page');
   });
 }
 

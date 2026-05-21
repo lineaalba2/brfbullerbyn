@@ -21,8 +21,10 @@ Lägg PDF-filer (årsredovisningar, stadgar, protokoll, m.m.) i den här mappen 
 
 4. **Kategorier som finns:**
    - `arsredovisning` → visas under *Om föreningen → Årsredovisningar*
-   - `stadgar` → visas under *Om föreningen → Stadgar och styrdokument*
+   - `stadgar` → visas under *Om föreningen → Stadgar*
    - `stamma` → visas under *Om föreningen → Årsstämmor* (kallelser, protokoll)
+   - `energideklaration` → visas under *Om föreningen → Energideklaration*
+   - `garanti` → visas under *Felanmälan → Garantidokument*
    - `ordningsregler` → visas under *Regler & råd → Nyttiga dokument*
    - `ovrigt` → visas under *Regler & råd → Nyttiga dokument*
 5. **Commit changes.** Sidan uppdateras automatiskt.
